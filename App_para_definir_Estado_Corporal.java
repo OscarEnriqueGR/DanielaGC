@@ -5,7 +5,7 @@ public class App_para_definir_Estado_Corporal {
     public static void main (String [] args) {
        Scanner entrada = new Scanner (System.in);
        System.out.println ("Insertar peso");
-       int peso = entrada.nextInt();
+       double peso = entrada.nextDouble();
         if (peso >= 85){
             System.out.println("Estas Gordo");
         }
